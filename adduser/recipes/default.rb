@@ -7,14 +7,15 @@
 # All rights reserved - Do Not Redistribute
 #
 
+package 'libshadow-ruby1.8' 
 begin
-user "matsui" do
-comment "matsui"
+user "sanagi" do
+comment "sanagi"
 uid 1001
 gid "wheel"
-home "/home/matsui"
+home "/home/sanagi"
 shell "/bin/bash"
-password "$6$cjnsBJ7l$Cx23R0W3ZVxUAtO7E7cx6e.pZi13jxvNfcB4RjtCnSXi.jBV1VhkrNfPhBKQ//r9moVMzhj.EO7ppuRQ0i1VP0"
+password "Chuosen-Akihabara"
 end
 rescue
 log "ignore error"
