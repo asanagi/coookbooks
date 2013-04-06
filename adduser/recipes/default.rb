@@ -8,7 +8,6 @@
 #
 
 package 'libshadow-ruby1.8' 
-begin
 user "sanagi" do
 comment "sanagi"
 uid 1001
@@ -16,7 +15,4 @@ gid "wheel"
 home "/home/sanagi"
 shell "/bin/bash"
 password "Chuosen-Akihabara"
-end
-rescue
-log "ignore error"
 end
