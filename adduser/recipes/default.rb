@@ -6,13 +6,10 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-
 package 'libshadow-ruby1.8' 
-user "sanagi" do
-comment "sanagi"
-uid 1001
-gid "wheel"
-home "/home/sanagi"
+user "test" do
+comment "Test User"
+home "/home/test"
 shell "/bin/bash"
-password "Chuosen-Akihabara"
-end
+password "foobar"
+end 
